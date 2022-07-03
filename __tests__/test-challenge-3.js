@@ -1,4 +1,4 @@
-const assignment = require('../src/assignment.js');
+ const assignment = require('../src/assignment.js');
 
 const { celsiusToFahrenheit } = assignment;
 const maybe = celsiusToFahrenheit === undefined ? test.skip : test;
